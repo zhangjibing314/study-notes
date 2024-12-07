@@ -1,6 +1,14 @@
 [toc]
 ---
+# 指定tty作为被调试程序的stdin,stdo
+```shell
+# tty_path:被指定的tty的全路径
+# debug-app:被调试的程序
+# 用法
+gdb --tty=<tty_path> <debug-app>
+```
 # 调试进程
+## 开始调试进程
 
 * 方案一：在启动gdb时就指定进程：
 ```shell
@@ -10,6 +18,11 @@ sudo gdb -p <pid>
 * 方案二：启动gdb后再指定进程：
 ```shell
 (gdb) attach <pid>
+```
+## 调试结束
+```shell
+# 和被调试的进程分离，使其继续运行
+(gdb) detach
 ```
 
 # 修改变量
