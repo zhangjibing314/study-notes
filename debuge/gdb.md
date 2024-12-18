@@ -35,17 +35,55 @@ set var_name=value
 则需加上`var`，即`set var var_name=value`
 
 # 显示变量
-* 方案一：临时显示:
+## 常规变量显示
+* 临时显示:
 ```shell
 p var_name
 ```
-* 方案二：每次暂停都显示:
+* 每次暂停都显示:
 ```shell
 #确定要显示的变量
 display var_name
 #取消显示的变量
 undisplay var_name
 ```
+* 按照指定格式显示变量
+```shell
+p/<format> <var_name>
+```
+format| 说明|
+|-    |-    |
+|x    |十六进制|
+|d    |十进制|
+|u    |十进制，无符号|
+|o    |八进制|
+|t    |二进制|
+|a    |打印为地址|
+|c    |将值转换为整数|
+|f    |浮点数
+|s    |字符串|
+|z    |该值被视为整数并以十六进制打印|
+
+## 显示数组  
+```shell
+p *<arr_name>@<len>
+```
+## 指针变量显示
+* 显示指针变量地址:`p &var_ptr_name`
+* 显示指针变量内容:
+    * 默认格式: `p <var_ptr>`
+    * 指定格式:`x/<format> <var_ptr> `
+        ><format> 指定查看数据的方式，比如：
+        >>x 十六进制  
+        >>d 十进制  
+        >>u 无符号十进制  
+        >>o 八进制  
+        >>t 二进制  
+        >>a 地址（十六进制）  
+        >>c 字符  
+        >>f 浮点数  
+        >>s 字符串  
+        >示例：`x/x var_1`
 # 显示调用栈
 ```shell
 backtrace # or 'bt'
