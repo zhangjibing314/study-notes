@@ -87,6 +87,15 @@ $(document).ready(function () {
 ```
 
 # 高级用法
+## 注脚
+1. 示例:  
+百度[^baidu]是一家搜索引擎发家的公司，谷歌[^google]也是。
+[^baidu]:国内搜索网站，官网地址为www.baidu.com
+[^google]:国外搜索网站，官网地址为www.google.com
+## 任务列表
+* [x] 吃饭
+* [ ] 睡觉
+* [ ] 打豆豆
 ## 横向流程图
 ```mermaid
 graph LR
@@ -96,3 +105,6 @@ C -->|a=1| D[结果1]
 C -->|a=2| E[结果2]
 F[横向流程图]
 ```
+## 使用 Emoji 表情
+1. 示例：真是笑哭了 :joy:
+2. [Emoji 表情](https://gist.github.com/rxaviers/7360908)查找

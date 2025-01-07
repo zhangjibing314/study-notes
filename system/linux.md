@@ -1,5 +1,11 @@
 [toc]
 -----------------------------------------
+# 完整的linux系统
+完整的 linux 系统包括：
+* bootloader
+* kernel
+* rootfs
+* dt
 # linux系统目录结构说明  
     /bin
         bin 是 Binaries (二进制文件) 的缩写, 这个目录存放着最经常使用的命令。
