@@ -25,3 +25,23 @@
 ```shell
 git apply -R <补丁>
 ```
+# 子模块——submodule
+* 在主仓库库中添加子模块
+```shell
+git submodule add <子仓库的url> <在主仓库中的位置>
+```
+* 在主仓库库中移除子模块
+```shell
+# 取消注册
+git submodule deinit <在主仓库中的位置>
+# 移除
+git rm <在主仓库中的位置>
+```
+* 在主仓库库中更新子模块
+```shell
+# 更新所有子模块
+git submodule --merge
+# 将对子模块的更新(patch跟踪)在主仓库中提交
+git add .
+git commit -m "commit info"
+```
