@@ -40,6 +40,9 @@ git rm <在主仓库中的位置>
 * 在主仓库库中更新子模块
 ```shell
 # 更新所有子模块
+cd <submodule-name>
+git pull
+cd -
 git submodule --merge
 # 将对子模块的更新(patch跟踪)在主仓库中提交
 git add .
