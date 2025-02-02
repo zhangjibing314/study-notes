@@ -1,3 +1,7 @@
+---
+title: mysql 管理
+toc: true
+---
 [toc]
 
 # 启动 or 关闭 MySQL服务器

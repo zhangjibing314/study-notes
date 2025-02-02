@@ -1,3 +1,7 @@
+---
+title: c++ 基础
+toc: true
+---
 [toc]
 
 # 类和对象

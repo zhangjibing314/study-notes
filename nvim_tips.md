@@ -1,3 +1,7 @@
+---
+title: neovim 技巧
+toc: true
+---
 [toc]
 
 # 代码跳转

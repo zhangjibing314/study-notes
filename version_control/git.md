@@ -1,3 +1,7 @@
+---
+title: git
+toc: true
+---
 [toc]
 
 # git 基础

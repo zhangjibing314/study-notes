@@ -1,3 +1,7 @@
+---
+title: git tips
+toc: true
+---
 # 补丁——patch
 * 生成补丁的方式
     * 基于 **当前提交** 的数据库中的 patch 生成补丁:

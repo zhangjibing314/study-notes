@@ -1,3 +1,7 @@
+---
+title: make
+toc: true
+---
 [toc]
 
 ---

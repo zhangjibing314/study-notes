@@ -1,3 +1,7 @@
+---
+title: qemu 基础
+toc: true
+---
 # 索引
 ## qemu的使用方式
 * [系统模拟](./system-emulation.md):可以提供整个机器（cpu、内存、模拟设备）的虚拟环境来运行客户操作系统

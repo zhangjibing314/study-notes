@@ -1,3 +1,7 @@
+---
+title: markdown 技巧
+toc: true
+---
 [TOC]
 
 # 基础用法

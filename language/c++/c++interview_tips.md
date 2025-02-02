@@ -1,3 +1,7 @@
+---
+title: c++ tips
+toc: true
+---
 [toc]
 
 # 类

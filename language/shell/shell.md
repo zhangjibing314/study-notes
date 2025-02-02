@@ -1,3 +1,7 @@
+---
+title: shell
+toc: true
+---
 # 目录
 [TOC]
 ---

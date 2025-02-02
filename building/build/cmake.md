@@ -1,3 +1,7 @@
+---
+title: cmake
+toc: true
+---
 [toc]
 
 ------------------

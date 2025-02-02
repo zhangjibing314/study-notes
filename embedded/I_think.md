@@ -1,3 +1,7 @@
+---
+title: I think
+toc: true
+---
 [toc]
 # 嵌入式开发中的地址
 ## 嵌入式硬件的地址

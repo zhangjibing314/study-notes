@@ -1,3 +1,7 @@
+---
+title: awk
+toc: true
+---
 [toc]
 
 ---

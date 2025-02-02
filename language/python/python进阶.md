@@ -1,3 +1,7 @@
+---
+title: python
+toc: true
+---
 * 目录
     * venv创建虚拟环境
 

@@ -1,3 +1,7 @@
+---
+title: gdb
+toc: 
+---
 [toc]
 ---
 # 指定tty作为被调试程序的stdin,stdo

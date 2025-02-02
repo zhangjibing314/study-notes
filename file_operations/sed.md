@@ -1,3 +1,7 @@
+---
+title: sed
+toc: true
+---
 [toc]
 
 # sed 作用  
