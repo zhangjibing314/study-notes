@@ -1,6 +1,6 @@
 ---
 title: gdb
-toc: 
+toc: true
 ---
 [toc]
 ---
